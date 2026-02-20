@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikitha Pilla</title>
+  <link rel="stylesheet" href="styles.css/portfolio.css">
+  <script src="https://kit.fontawesome.com/e6d2a96d32.js" crossorigin="anonymous"></script>
+  <script defer src = "script.js/portfollio.js"></script>
+  <script defer src="script.js/sidemenu.js"></script>
+  <script defer src="script.js/ContactForm.js"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#services">Projects</a></li> -->
+          <li><a href="#portfolio">Projects</a></li> 
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        <img src="styles.css/images/nikitha-high-resolution-logo-color-on-transparent-background.png" alt="logo" id="logo">
+      </nav>
+        <div class="headertext">
+          <p>Data Analyst | AI & Machine Learning Enthusiast</p>
+          <h1>Hi, I'm <span>Nikitha</span><br>
+            Nikitha From India
+          </h1>
+        </div>
+    </div>
+  </div>
+    
+ 
+  <!-- -----------------------------------About mee---------------------- -->
+  <div id="about">
+    <div>
+      <div class="row">
+        <div class="about-col-2">
+          <h1 class='sub-title'>About Me</h1>
+          <p>I enjoy working with data and turning it into meaningful insights. Using Python, SQL, and Excel, I analyze datasets, identify trends, and support better decision-making.
+            I have built machine learning models, AI applications, and automation workflows. I am always learning and exploring opportunities in Data Analytics and AI.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link"onclick ="opentab('skills')">Skills</p>
+            <p class="tab-links"onclick ="opentab('exp')">Experience</p>
+            <p class="tab-links"onclick ="opentab('edu')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Technical Skills</span><br>SQL, Python, Exel, EDA, PowerBI, ML/AI<br>Learning and building AI & data analysis projects</li>
+              <li><span>Communation</span><br>English | Telugu </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="exp">
+            <ul>
+              <li><span>2025 - Current</span><br>Data Science Training at 360digitmg</li>
+              <li><span>2024</span><br>AWS Virtual Course at EduSkills</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="edu">
+            <ul>
+              <li><span>2025 - Current</span><br>Data Science Training at 360digitmg</li>
+              <li><span>2021 - 2025</span><br>Computer Science Engineering, <br> Srinivasa Institute of Engineering and Technology</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-col-1">
+          <img src="styles.css/images/1756884589481.jpeg" alt="photo">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -----------------------projects------------------------------ -->
+<div id="projects">
+  <div class="sec3">
+    <h1 class="sub-title">Projects</h1>
+    <p class="section-desc">
+  Applied Data analysis, machine learning, AI, and automation projects focused on real-world use cases.
+    </p>
+
+
+    <div class="services-list">
+
+      <!-- Project 1 -->
+      <div>
+        <i class="fa-solid fa-brain"></i>
+        <h2>AI-Powered IVF Support Chatbot</h2>
+        <p>
+          Built an AI chatbot using RAG architecture to retrieve IVF-related
+          medical information and generate reliable responses for users.
+        </p>
+        <a target="_blank" href="https://github.com/nikithanikki501/ivf_chatbot">
+          View Code
+        </a>
+      </div>
+
+      <!-- Project 2 -->
+     
+      <div>
+        <i class="fa-solid fa-gears"></i>
+        <h2>Automation Workflows (n8n)</h2>
+        <p>
+          Automated certificate generation, WhatsApp messaging, and AI-based
+          email workflows using APIs and Google Sheets.
+        </p>
+        <a target="_blank" href="https://github.com/nikithanikki501/n8n_automations">
+          View Code
+        </a>
+      </div>
+
+   
+
+      <!-- Project 3 (optional) -->
+      <div>
+        <i class="fa-solid fa-rocket"></i>
+        <h2>Cosmic Snap – NASA API App</h2>
+        <p>
+          Web app using NASA APIs to display astronomical images based on user
+          date of birth with clean UI.
+        </p>
+        <a target="_blank" href="https://github.com/nikithanikki501/nasa_api">
+          View Code
+        </a>
+      </div>
+         <!-- Project 4 -->
+      <div>
+        <i class="fa-solid fa-gears"></i>
+        <h2>Solar Power Forecasting (AI Project)</h2>
+        <p>
+         Developed a regression-based machine learning model to forecast solar energy output. The model involved data preprocessing, feature analysis, and performance evaluation.      
+        </p>
+        <a target="_blank" href="https://github.com/nikithanikki501/n8n_automations">
+          
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- -------------------------------------portfolio------------------------------- -->
+  <div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">Early Web Projects</h1>
+    <p class="section-desc">
+     Early frontend projects built using HTML, CSS, and public APIs to strengthen web fundamentals.
+    </p>
+
+
+    <div class="work-list">
+
+      <div class="work">
+        <img src="styles.css/images/Ux:ui.jpg" alt="">
+        <div class="layer">
+          <h3>Cosmic Snap – NASA API</h3>
+          <p>
+            Web application using NASA APIs to display astronomical images
+            based on the user’s date of birth.
+          </p>
+          <a href="https://cosmos-dinesh.netlify.app" target="_blank">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="styles.css/images/webd.jpg" alt="">
+        <div class="layer">
+          <h3>Salon Website</h3>
+          <p>
+            Built a static website using HTML and CSS for a local salon
+            to practice layout design and responsiveness.
+          </p>
+          <a href="https://nikitha-saloon.netlify.app" target="_blank">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="styles.css/images/bsites.jpg" alt="">
+        <div class="layer">
+          <h3>Restaurant Website</h3>
+          <p>
+            Developed a responsive static website using HTML and CSS
+            for a local restaurant as an early frontend project.
+          </p>
+          <a href="https://sri-padmavathi-cusiene.netlify.app" target="_blank">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+  
+
+    </div>
+  </div>
+</div>
+  <!-- -------------------------------------Contact------------------------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row contact-clean">
+
+      <div class="cot-left">
+        <h1 class="sub-title">Contact Me</h1>
+
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:nikithap501@gmail.com">nikithap501@gmail.com</a>
+        </p>
+
+        <p>
+          <i class="fa-solid fa-square-phone"></i>
+          9381181635
+        </p>
+
+        <div class="social">
+          <a href="https://instagram.com/nikitha_125?igshid=MzRlODBiNWFlZA==" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/nikitha-p-a56383379/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a href="https://github.com/nikithanikki501" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+
+        <a href="NikithaPilla_Portfolio_Resume.pdf" download class="btn btn2">
+          Download Resume
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      Copyright © Nikitha Pilla. 
+      Built with <i class="fa-solid fa-heart"></i>
+    </p>
+  </footer>
+</div>
